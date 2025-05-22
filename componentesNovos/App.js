@@ -5,7 +5,7 @@ import Slider from '@react-native-community/slider';
 
 export default function App() {
   const [selectedValue, setSelectedValue] = useState('opcao1');
-  const [sliderValue, setSliderValue] = useState(50);
+  const [sliderValue, setSliderValue] = useState(30);
   const [isSwitchOn, setIsSwitchOn] = useState(false);
   const [isTogglerOn, setIsTogglerOn] = useState(false);
 
